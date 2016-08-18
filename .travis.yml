@@ -13,4 +13,4 @@ env:
 
 exclude: [vendor]
 
-sudo:false
+sudo: false
