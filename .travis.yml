@@ -1,11 +1,15 @@
 language: ruby
 rvm:
-  - 2.1
+  - 2.2.3
 
 before_script:
   - chmod +x ./script/cibuild
+  
+before_install:
+  - gem update bundler
 
-install: gem install jekyll html-proofer
+install: gem install jekyll -v 2.5  html-proofer
+
 script: jekyll build && htmlproofer ./_site
 
 env:
