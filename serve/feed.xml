@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Start Bootstrap</title>
+    <title>Rohan Pande</title>
     <description>Web Developer - Graphic Artist - User Experience Designer
 </description>
     <link>http://rohan.github.io/startbootstrap-freelancer-jekyll/</link>
     <atom:link href="http://rohan.github.io/startbootstrap-freelancer-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Aug 2016 10:40:24 +0530</pubDate>
-    <lastBuildDate>Thu, 18 Aug 2016 10:40:24 +0530</lastBuildDate>
+    <pubDate>Thu, 18 Aug 2016 10:59:00 +0530</pubDate>
+    <lastBuildDate>Thu, 18 Aug 2016 10:59:00 +0530</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
