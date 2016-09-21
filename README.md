@@ -1,2 +1,2 @@
 ## Rohan Pande
-**This file will contain all my work, project & experiences** 
+**This repo will contain all my work, project & experiences** 
