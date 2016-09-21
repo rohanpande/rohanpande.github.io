@@ -17,17 +17,17 @@ url: "http://rohan.github.io" # the base hostname & protocol for your site
 twitter_username: justrohu
 github_username:  rohanpande
 facebook_username: justrohu
-#instagram_username: beyonce
+instagram_username: justrohu
 #stackoverflow_url: https://
-#googleplus_username: BobMarley
-#skype_username: echo123
+googleplus_username: justrohu
+skype_username: justrohu
 #linkedin_url: https://
 
 # Address information
-address_street: 3015 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90210
+address_street: A 1/10 C.A. Road
+address_city: Nagpur
+address_state: MH
+address_zip: 440006
 
 # Build settings
 markdown: kramdown
