@@ -2,8 +2,8 @@
 # Profile
 
 [![Build Status](https://travis-ci.org/rohanpande/rohanpande.github.io.svg?branch=master)](https://travis-ci.org/rohanpande/rohanpande.github.io)
-[![Ruby](https://img.shields.io/badge/ruby-2.1,_2.2-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
-[![Jekyll](https://img.shields.io/badge/jekyll-2.4.0,_3.0.0-blue.svg?style=flat)](http://travis-ci.org/biomadeira/sustain)
+[![Ruby](https://img.shields.io/badge/ruby-2.1,_2.2-blue.svg?style=flat)](https://travis-ci.org/rohanpande/rohanpande.github.io)
+[![Jekyll](https://img.shields.io/badge/jekyll-2.4.0,_3.0.0-blue.svg?style=flat)](https://travis-ci.org/rohanpande/rohanpande.github.io)
 
 Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) 
 
