@@ -8,9 +8,9 @@ before_script:
 before_install:
   - gem update bundler
 
-install: gem install jekyll html-proofer
+install: gem install jekyll rdiscount pygments.rb
 
-script: jekyll build && htmlproofer ./_site
+script: jekyll serve
 
 env:
   global:
