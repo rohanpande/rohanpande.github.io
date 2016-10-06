@@ -8,7 +8,7 @@ before_install:
 
 install: gem install jekyll rdiscount pygments.rb
 
-script: jekyll serve
+script: jekyll build
 
 env:
   global:
