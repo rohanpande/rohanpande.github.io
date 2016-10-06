@@ -1,61 +1,17 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-
-  <!-- <h1 class="post-heading"></h1> -->
-
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title | escape }}
-          </a>
-        </h2>
-        <div class="post-meta">
-          <b class="post__author">
-            {% if post.author %} {{ post.author }} {% endif %}
-          </b>
-          <b class="post__sep">.</b>
-          <b class="post__date">
-            {{ post.date | date: "%b %-d, %Y" }}
-          </b>
-        </div>
-        {{ post.excerpt }}
-        <a href="{{ post.url | prepend:site.baseurl }}" class="btn-default">Read more</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
-
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer.</h3>
+	  <h3>I love all things computer science and maths.</h3>
+	  <h3>Have a look at some of my working <a href="{{ site.baseurl }}/projects.html"> projects</a>.</h3>
+	  <h3>For more check out my academic &amp; professional <a href="http://www.rohanpande.in/">Resume</a>.</h3>
+	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>

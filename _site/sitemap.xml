@@ -1,59 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>/design/2016/02/07/cabin</loc>
-<lastmod>2016-02-07T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/design/2016/02/06/cake</loc>
-<lastmod>2016-02-06T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/design/2016/02/05/circus</loc>
-<lastmod>2016-02-05T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/design/2016/02/04/game</loc>
-<lastmod>2016-02-04T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/design/2016/02/03/safe</loc>
-<lastmod>2016-02-03T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/design/2016/02/02/submarine</loc>
-<lastmod>2016-02-02T01:38:10+05:30</lastmod>
-</url>
-<url>
-<loc>/index.html</loc>
-<lastmod>2016-10-06T21:37:28+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/02/submarine.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/03/safe.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/04/game.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/05/circus.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/06/cake.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/design/2016/02/07/cabin.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
-<url>
-<loc>/serve/index.html</loc>
-<lastmod>2016-09-29T21:53:24+05:30</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://rohanpande.in//</loc>
+    <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post1.html</loc>
+      
+        <lastmod>2013-06-05T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post2.html</loc>
+      
+        <lastmod>2013-05-27T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post3.html</loc>
+      
+        <lastmod>2013-04-02T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post4.html</loc>
+      
+        <lastmod>2013-03-15T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post5.html</loc>
+      
+        <lastmod>2013-02-10T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post6.html</loc>
+      
+        <lastmod>2013-01-24T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>http://rohanpande.in//post7.html</loc>
+      
+        <lastmod>2012-11-04T00:00:00+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>http://rohanpande.in//404</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://rohanpande.in//atom.xml</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://rohanpande.in//blog</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://rohanpande.in//</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://rohanpande.in//projects</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://rohanpande.in//sitemap.xml</loc>
+    
+      <lastmod>2016-10-06T22:49:57+05:30</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
 </urlset>
