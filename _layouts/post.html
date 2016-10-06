@@ -1,3 +1,25 @@
 ---
 layout: default
 ---
+<div class="grid">
+  <div class="grid__col--12 page">
+
+    <header class="post__header">
+      <h1 class="headline-primary"> {{ page.title }} </h1>
+      <div class="post__meta">
+        <b class="post__author">
+          {% if page.author %} {{ page.author }} {% endif %}
+        </b>
+        <b class="post__sep">.</b>
+        <b class="post__date">{{ page.date | date: "%b %-d, %Y"}}</b>
+      </div>
+    </header>
+{% if page.image %}
+    <img src="/img/{{ page.image }}" alt="post image" class="feat-img  is-hidden-mobile">
+{% endif %}
+    <article class="post__content">
+      {{ content }}
+    </article>
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </div>
+</div>

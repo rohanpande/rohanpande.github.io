@@ -3,24 +3,12 @@
 
   {% include head.html %}
 
-  <body id="page-top" class="index">
-
-    {% include navbar.html %}
-
+  <body>
     {% include header.html %}
+    <div class="wrapper">
 
-    {% include portfolio.html %}
-
-    {% include about.html %}
-
-    {% include contact.html %}
-
+    {{ content }}
+    </div>
     {% include footer.html %}
-
-    {% include modals.html %}
-
-    {% include javascript.html %}
-
   </body>
-
 </html>

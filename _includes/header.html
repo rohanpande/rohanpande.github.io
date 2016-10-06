@@ -1,15 +1,22 @@
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="img/profile.png" alt="">
-                <div class="intro-text">
-                    <span class="name">{{ site.title }}</span>
-                    <hr class="star-light">
-                    <span class="skills">{{ site.description }}</span>
-                </div>
-            </div>
-        </div>
+<!-- Capture and store a URL -->
+{% capture location %}{{ page.url | split:'/' }}{% endcapture %}
+<header class="main-header" role="banner">
+  <div class="grid">
+    <div class="grid__col--12">
+      <a href="/" class="site-logo" title="Webconfs.me - Home">WebConfs
+      </a>
+      <nav class="navbar" role="navigation">
+          <ul class="nav">
+            {% for page in site.pages %}
+            {% assign current = page.title | downcase %}
+              {% if page.title %}
+                <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item"> {% endif %}>
+                  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </nav>
     </div>
+  </div>
 </header>
