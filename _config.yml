@@ -7,11 +7,10 @@
 
 # Site settings
 title: Rohan Pande
-email: justrohu@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
-baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
-url: "http://rohan.github.io" # the base hostname & protocol for your site
+email: rohanpande2307@gmail.com
+description: Web Developer - Graphic Artist - User Experience Designer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: justrohu
@@ -31,3 +30,25 @@ address_zip: 440006
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title
+gems: [jekyll-paginate]
+exclude: [vendor]
+paginate: 2
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      author: Rohan Pande
+      layout: "post"
+      category: conferences
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"

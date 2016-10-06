@@ -185,6 +185,7 @@ DEPENDENCIES
   jekyll-assets
   jekyll-lunr-js-search (~> 3.1)
   jekyll-sitemap
+  rake
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
