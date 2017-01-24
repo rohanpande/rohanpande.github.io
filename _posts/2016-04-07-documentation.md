@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Documentation
-description: Learn how to install and use this theme. This document will be updated on a regular basis upon adding new features or bug fixes5 
+description: Learn how to install and use this theme. This document will be updated on a regular basis upon adding new features or bug fixes5
 img: image-10.jpg
 color: 212121
-author: webjeda
+author: justrohu
 ---
 
 * some text
 {: toc}
 
-# Installation: 
+# Installation:
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 Watch my video on instlallation
@@ -30,7 +30,7 @@ You have to create a new ``gh-pages`` branch using the master branch. Go back to
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
+This process will host the theme as a **Project Page**. You can also download the files for local development.
 
 The default theme will look like this
 

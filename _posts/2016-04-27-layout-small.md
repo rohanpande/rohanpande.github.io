@@ -7,7 +7,7 @@ categories: jekyll update
 img: image-l.jpg
 categories: [one, two]
 color: 4CAF50
-author: webjeda
+author: justrohu
 permalink: /small/
 width: small
 ---
