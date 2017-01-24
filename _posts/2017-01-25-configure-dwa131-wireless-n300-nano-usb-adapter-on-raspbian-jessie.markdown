@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "CONFIGURE DWA131 WIRELESS N300 NANO USB ADAPTER ON RASPBIAN JESSIE"
-description: Today I have to shift network connection of my raspberry pi 2 from wired to wifi. I did foresee this and did purchased a wifi dongle “DWA131 Wireless N300 Nano USB Adapter” 
-date:   2017-01-23 10:51:47 +0530
+description: Today I have to shift network connection of my raspberry pi 2 from wired to wifi. I did foresee this and did purchased a wifi dongle “DWA131 Wireless N300 Nano USB Adapter”
+date:   2017-01-25 10:51:47 +0530
 categories: post
 img: DLINKDW131.jpg
 categories: [one, two]
@@ -17,6 +17,7 @@ So during this weekend I decided I should fix this issue. I googled for solution
 So this is what I did to fix my issue.
 
 First I got the kernal and build number of “Raspbian Jessie” by doing
+
 
 uname -a
 
@@ -48,12 +49,12 @@ interface setting
 
 path: /etc/network/interfaces
 
-# interfaces(5) file used by ifup(8) and ifdown(8)
+##### interfaces(5) file used by ifup(8) and ifdown(8)
 
-# Please note that this file is written to be used with dhcpcd
-# For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’
+##### Please note that this file is written to be used with dhcpcd
+##### For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’
 
-# Include files from /etc/network/interfaces.d:
+##### Include files from /etc/network/interfaces.d:
 source-directory /etc/network/interfaces.d
 
 auto lo
