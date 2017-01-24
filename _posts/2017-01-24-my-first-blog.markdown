@@ -6,7 +6,7 @@ date:   2017-01-24 10:51:47 +0530
 categories: post
 img: first.png
 categories: [one, two]
-color: 1976D2
+color: 1797a5
 author: Rohan Pande
 ---
 Welcome to my first blog, Thank you for taking time to read this.
