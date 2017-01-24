@@ -7,7 +7,7 @@ categories: post
 img: first.png
 categories: [one, two]
 color: 1976D2
-author: justrohu
+author: Rohan Pande
 ---
 Welcome to my first blog, Thank you for taking time to read this.
 At first, I was reluctant to do blogging then I thought writting makes me feel relaxed so here it is.

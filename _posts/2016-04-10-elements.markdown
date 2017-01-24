@@ -5,7 +5,7 @@ description: Sed laoreet purus vitae diam rutrum porttitor. Sed ipsum lectus, fi
 categories: jekyll update
 img: image-8.jpg
 color: FF6F00
-author: justrohu
+author: Rohan Pande
 ---
 
 ### Heading

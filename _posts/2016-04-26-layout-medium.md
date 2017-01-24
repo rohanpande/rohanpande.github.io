@@ -7,7 +7,7 @@ categories: jekyll update
 img: image-l.jpg
 categories: [one, two]
 color: 03A9F4
-author: justrohu
+author: Rohan Pande
 permalink: /medium/
 width: medium
 ---

@@ -4,7 +4,7 @@ title: Documentation
 description: Learn how to install and use this theme. This document will be updated on a regular basis upon adding new features or bug fixes5
 img: image-10.jpg
 color: 212121
-author: justrohu
+author: Rohan Pande
 ---
 
 * some text
