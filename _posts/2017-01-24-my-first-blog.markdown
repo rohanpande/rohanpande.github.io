@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Post"
 description: Welcome to my first blog, Thank you for taking time to read this. At first, I was reluctant to do blogging then I thought writting makes me feel relaxed so here it is.
-date:   2016-06-13 10:51:47 +0530
+date:   2017-01-24 10:51:47 +0530
 categories: post
 img: first.png
 categories: [one, two]
