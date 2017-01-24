@@ -1,19 +1,44 @@
+Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
 
-# Profile
+# Installation: 
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-[![Build Status](https://travis-ci.org/rohanpande/rohanpande.github.io.svg?branch=master)](https://travis-ci.org/rohanpande/rohanpande.github.io)
-[![Ruby](https://img.shields.io/badge/ruby-2.1,_2.2-blue.svg?style=flat)](https://travis-ci.org/rohanpande/rohanpande.github.io)
-[![Jekyll](https://img.shields.io/badge/jekyll-2.4.0,_3.0.0-blue.svg?style=flat)](https://travis-ci.org/rohanpande/rohanpande.github.io)
+Watch my video on instlallation
+<iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Personal blog built with [Bootstrap](http://getbootstrap.com/), powered by [Jekyll](http://jekyllrb.com/) 
+## How to delete old **gh-pages** branch?
+After forking the repository, click on **branches**.
 
-## Copyright & License
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch.png)
 
-Copyright (C) 2015 - Released under the MIT License.
+Delete ``gh-pages`` branch.
+![delete gh-pages branch](http://blog.webjeda.com/images/delete-github-branch-2.png)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+![create gh-pages branch](http://blog.webjeda.com/images/create-gh-pages-branch.JPG)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
+
+This process will host the theme as a **Project Page**. You can also download the files for local development. 
+
+The default theme will look like this
+
+![webjeda karna jekyll theme](/images/karna-jekyll-theme-screenshot.png)
+
+
+
+A sample post would look like this
+
+![webjeda karna jekyll theme sidebar](/images/post.png)
+
+
+This theme is made especially for smartphones.
+
+![webjeda karna responsive jekyll theme](/images/karna-responsive-jekyll-theme.png)
+
+# Development
+Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
+
+# License
+MIT License

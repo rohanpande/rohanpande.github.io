@@ -1,31 +1,43 @@
-# top level stuff you probably don't need to touch
-highlighter: pygments
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-permalink: /:title.html
-paginate: 5
-gems: [jekyll-paginate]
-port: 3000
-safe: true
+
+title: Karna
+desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
+url: http://webjeda.com/
+permalink: ':title/'
+
+markdown: kramdown
+baseurl: "/karna"
 
 
-# edit here to achieve your personal greatness
-url: http://rohanpande.in/
-baseurl: ''
-title: Rohan Pande
-author: Rohan Pande
-description: Personal blog and resume
-avatar: profile.jpg
-email: info@rohanpande.in
-github: rohanpande # username
-twitter: justrohu
-linkedin: justrohu
-#stackoverflow: justrohu   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus
-#disqus: username
-google_analytics: UA-85306442-1
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
 
 
-# needed for travis-ci build
-exclude: [vendor]
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]
