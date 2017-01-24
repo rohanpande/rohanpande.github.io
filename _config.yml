@@ -5,7 +5,7 @@ url: http://roahnpande.in/
 permalink: ':title/'
 
 markdown: kramdown
-baseurl: "/"
+
 
 
 sass:
