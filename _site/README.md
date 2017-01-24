@@ -1,4 +1,4 @@
-Demo: [http://webjeda.com/karna](http://webjeda.com/karna)
+Demo: [http://webjeda.com/Rohan Pande](http://webjeda.com/Rohan Pande)
 
 # Installation: 
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
@@ -24,18 +24,18 @@ This process will host the theme as a **Project Page**. You can also download th
 
 The default theme will look like this
 
-![webjeda karna jekyll theme](/images/karna-jekyll-theme-screenshot.png)
+![webjeda Rohan Pande jekyll theme](/images/Rohan Pande-jekyll-theme-screenshot.png)
 
 
 
 A sample post would look like this
 
-![webjeda karna jekyll theme sidebar](/images/post.png)
+![webjeda Rohan Pande jekyll theme sidebar](/images/post.png)
 
 
 This theme is made especially for smartphones.
 
-![webjeda karna responsive jekyll theme](/images/karna-responsive-jekyll-theme.png)
+![webjeda Rohan Pande responsive jekyll theme](/images/Rohan Pande-responsive-jekyll-theme.png)
 
 # Development
 Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
