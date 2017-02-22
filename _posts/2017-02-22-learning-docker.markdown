@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "Learning Docker"
+date:   2017-02-22 14:12:47 +0530
+categories: post
+img: DLINKDW131.jpg
+categories: [one, two]
+color: 1976D2
+author: Rohan Pande
+---
+
 # To Run 
 = docker run docker/whalesay cowsay boo
 
