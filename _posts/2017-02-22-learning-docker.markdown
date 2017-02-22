@@ -159,7 +159,7 @@ CMD /usr/games/fortune -a | cowsay
  EXPOSE 80    # exposing http port
  EXPOSE 443   # exposing https port
 
-### CMD ["executable","param1","param2"] { syntax on command writting }
+  # CMD ["executable","param1","param2"] { syntax on command writting }
 
  CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 
@@ -170,3 +170,4 @@ CMD /usr/games/fortune -a | cowsay
 
 ### To Stop a running container 
  - docker stop <container name>
+ 
