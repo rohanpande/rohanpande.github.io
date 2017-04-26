@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title:  "My First Post"
+=======
+title:  "My first blog"
+>>>>>>> develop
 description: Welcome to my first blog, Thank you for taking time to read this. At first, I was reluctant to do blogging then I thought writting makes me feel relaxed so here it is.
 date:   2017-01-24 10:51:47 +0530
 categories: post
@@ -9,6 +13,10 @@ categories: [one, two]
 color: 1797a5
 author: Rohan Pande
 ---
+<<<<<<< HEAD
+=======
+<hr/>
+>>>>>>> develop
 Welcome to my first blog, Thank you for taking time to read this.
 At first, I was reluctant to do blogging then I thought writting makes me feel relaxed so here it is.
 

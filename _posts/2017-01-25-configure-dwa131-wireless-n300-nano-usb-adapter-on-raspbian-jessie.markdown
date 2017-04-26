@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title:  "CONFIGURE DWA131 WIRELESS N300 NANO USB ADAPTER ON RASPBIAN JESSIE"
+=======
+title:  "Configure DWA131 wireless N300"
+>>>>>>> develop
 description: Today I have to shift network connection of my raspberry pi 2 from wired to wifi. I did foresee this and did purchased a wifi dongle “DWA131 Wireless N300 Nano USB Adapter”
 date:   2017-01-25 10:51:47 +0530
 categories: post
@@ -9,7 +13,11 @@ categories: [one, two]
 color: 1976D2
 author: Rohan Pande
 ---
+<<<<<<< HEAD
 
+=======
+<hr/>
+>>>>>>> develop
 Today I have to shift network connection of my raspberry pi 2 from wired to wifi. I did foresee this and did purchased a wifi dongle “DWA131 Wireless N300 Nano USB Adapter” from a technological fair at my home town. When I connected this dongle to my raspberry pi. It was disappointing to see that this dongle is not supported out of the box for raspbian jessie. so I tried it with “Kodi” which to my surprise supported this dongle out of the box.
 
 So during this weekend I decided I should fix this issue. I googled for solutions and found & tried many but none of them worked for me. then I looked up in detail and found out that most of the solutions were for DWA131 Wireless N150 Nano USB Adapter.
