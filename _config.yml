@@ -1,43 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-title: Karna
-desctiption: Karna is a responsive jekyll theme which includes pinterest like pins.
-url: http://webjeda.com/
-permalink: ':title/'
-
-markdown: kramdown
-baseurl: "/karna"
+# Permalinks
 
 
-sass:
-    style: compressed
 
-  
-#optimization
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+gems: [jekyll-paginate, jekyll-gist, rb-pygments]
 
-highlight: rouge
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
+paginate:         5
 
-# Tracker
-analytics: UA-83979019-1
+# Custom vars
+version:          2.1.0
 
-# Comments
-disqus-shortname: webjeda-demo
-
-# Contact form
-# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
-api-token:   
-
-include: [_pages]
-version: 0.8
-
-gems: [jekyll-paginate, jekyll-seo-tag]
+github:
+  repo:           https://github.com/poole/hyde
