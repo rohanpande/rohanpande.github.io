@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Learning docker !!! &middot; Rohan Pande
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Rohan Pande
+        </a>
+      </h1>
+      <p class="lead">Programming enthusiast, Nature lover, Open source contributor</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/work.html">Projects</a>
+          
+        
+      
+
+    </nav>
+
+    <p>&copy; 2017. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Learning docker !!!</h1>
+  <span class="post-date">22 Feb 2017</span>
+  <p><hr></p>
+
+<h3>To run docker</h3>
+
+<ul>
+<li>docker run docker/whalesay cowsay boo</li>
+</ul>
+
+<h3>To see Docker images on system</h3>
+
+<ul>
+<li>docker images</li>
+</ul>
+
+<h3>Writing a Docker File</h3>
+
+<ul>
+<li>A Dockerfile is a recipe which describes the files, environment, and commands that make up an image.</li>
+<li>create a new directory mkdir mydockerbuild</li>
+<li>cd mydockerbuild
+** Edit a new text file named Dockerfile</li>
+<li>nano Dockerfile
+** Add a FROM statement by copying the following line into the file</li>
+<li>FROM docker/whalesay:latest
+-- the FROM keyword tells Docker which image your image is based on.
+** Add a RUN statement which will install the fortunes program into the image</li>
+<li>RUN apt-get -y update &amp;&amp; apt-get install -y fortunes
+** Add a CMD statement which tells the iamge the final command to run afters its environment is setup this command runs fortune -a and sends its output to the cowsay command.</li>
+<li>CMD /usr/games/fortune -a | cowsay
+** Check your work. Your file should look just like this
+FROM docker/whalesay:latest
+RUN apt-get -y update &amp;&amp; apt-get install -y fortunes
+CMD /usr/games/fortune -a | cowsay</li>
+</ul>
+
+<h3>Build an image from your docker file</h3>
+
+<ul>
+<li>docker build -t docker-whale .</li>
+</ul>
+
+<h3>Run your new docker-whale</h3>
+
+<ul>
+<li>docker images [ this will provide list of all images at local ]</li>
+<li>docker run docker-whale</li>
+</ul>
+
+<h3>Tag and push the image</h3>
+
+<ul>
+<li>docker images [ this will provide list of all images available ]</li>
+<li>Find the image ID for the image to be tagged and pushed</li>
+<li>docker tag image ID justrohu/image-name:version</li>
+<li>docker images [ run again to ensure image has been tagged ]</li>
+<li>docker login [to login into docker.hub.com account ]</li>
+<li>docker push justrohu/image-name</li>
+</ul>
+
+<h3>Remove Docker Image</h3>
+
+<ul>
+<li>docker image remove [ you can refer to an image by its ID or its name ]</li>
+<li>docker image remove image ID</li>
+</ul>
+
+<h3>Pull your new image</h3>
+
+<ul>
+<li>docker images</li>
+<li>remove duplicate images by docker image remove image ID</li>
+<li>docker run docker/whalesay</li>
+</ul>
+
+<h3>To View List of All Containers</h3>
+
+<ul>
+<li>docker ps -a</li>
+</ul>
+
+<h3>To view list of Latest created containers including non-running containers</h3>
+
+<ul>
+<li>docker ps -l</li>
+</ul>
+
+<h3>To List the networks on docker</h3>
+
+<ul>
+<li>docker network ls</li>
+</ul>
+
+<h3>To Launch docker into the network by default it will launch in bridge network unless customized otherwise</h3>
+
+<ul>
+<li>docker run -itd --name=networktest ubuntu</li>
+</ul>
+
+<h3>inspecting the bridge is the easiest way to find containers ip address</h3>
+
+<ul>
+<li>docker network inspect bridge</li>
+</ul>
+
+<h3>To disconnect the container from a network</h3>
+
+<ul>
+<li>docker network disconnect bridge networktest</li>
+</ul>
+
+<h3>To create your own bridge network</h3>
+
+<ul>
+<li>docker network create -d bridge my-bridge-network</li>
+</ul>
+
+<h3>To add containers to a network</h3>
+
+<ul>
+<li>docker run -d --net=my-bridge-network --name db training/postgres</li>
+</ul>
+
+<h3>To inspect bridge</h3>
+
+<ul>
+<li>docker inspect --format=&#39;&#39; db</li>
+</ul>
+
+<h3>To add container to network without specifying network</h3>
+
+<ul>
+<li>docker run -d --name web training/webapp python app.py</li>
+</ul>
+
+<h3>To get the ip address on which container is deployed</h3>
+
+<ul>
+<li>docker inspect --format=&#39;&#39;</li>
+</ul>
+
+<h3>To open a shell to running container</h3>
+
+<ul>
+<li>docker exec -it db bash</li>
+</ul>
+
+<h3>To attach a container to other network</h3>
+
+<ul>
+<li>docker network connect my-bridge-network web</li>
+</ul>
+
+<p><hr></p>
+
+<h2>Data Volumes</h2>
+
+<h3>Adding a data volumn</h3>
+
+<ul>
+<li>docker run -d -P --name web -v /webapp training/webapp python app.py</li>
+<li>you can also use the VOLUME instruction in a Dockerfile to add one or more new volumes to any container created from that image.</li>
+</ul>
+
+<h3>Location a volumn</h3>
+
+<ul>
+<li>docker inspect web [ container name ]</li>
+</ul>
+
+<h3>Mount a host directory as a data volume</h3>
+
+<ul>
+<li>docker run -d -P --name web -v /src/webapp:/webapp training/webapp python app.py</li>
+</ul>
+
+<h3>Mount a host directory as data volume with read only</h3>
+
+<ul>
+<li>docker run -d -P --name web -v /src/webapp:/webapp:ro training/webapp python app.py</li>
+</ul>
+
+<h3>Mount a host file as a data volume¶</h3>
+
+<p>** The -v flag can also be used to mount a single file - instead of just directories - from the host machine.
+ - docker run --rm -it -v ~/.bash<em>histroy:/root/.bash</em>histroy ubuntu /bin/bash</p>
+
+<h3>Creating and mounting a data volume container</h3>
+
+<ul>
+<li>docker create -v /dbdata --name dbstore training/postgres /bin/true</li>
+</ul>
+
+<h3>To mount the /dbdata volume in another container by using --volumes-from flag</h3>
+
+<ul>
+<li>docker run -d --volumes-from dbstore --name db1 training/postgres</li>
+<li>docker run -d --volumes-from dbstore --name db2 training/postgres</li>
+</ul>
+
+<h3>To extend chain by mounting the volume that came from the dbstore</h3>
+
+<ul>
+<li>docker run -d --name db3 --volumes-from db1 training/postgres</li>
+</ul>
+
+<h3>Backup, restore or migrate data volumes</h3>
+
+<ul>
+<li>docker run --rm --volumes-from dbstore -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /dbdata</li>
+</ul>
+
+<h3>To remove volumes</h3>
+
+<ul>
+<li>docker run --rm -v /foot -v awesome:/bar busybox top</li>
+</ul>
+
+<h3>To delete containers</h3>
+
+<ul>
+<li>docker rm -f <container></li>
+</ul>
+
+<h3>Delete all available containers</h3>
+
+<ul>
+<li>docker rm -f $(docker ps -aq)</li>
+</ul>
+
+<h3>To expose default ports</h3>
+
+<ul>
+<li>docker run -tid -P  --name apache_server nimmis/apache-php5</li>
+</ul>
+
+<h3>Specify a different post <host port>:<container port></h3>
+
+<ul>
+<li>docker run -tid -p 80:80 --name apache_server  nimmis/apache-php5</li>
+</ul>
+
+<h3>Example</h3>
+
+<ul>
+<li>docker run -tid -p 80:80 --name=&quot;apache_server&quot; -v /Users/admin/Desktop/www/TEST:/var/www nimmis/apache-php5</li>
+</ul>
+
+<h3>Dockerfile example</h3>
+
+<p>FROM justrohu/apache-php5
+ MAINTAINER justrohu <a href="mailto:justrohu@gmail.com">justrohu@gmail.com</a>
+ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  [ overridding container httpd.conf with host conf ]</p>
+
+<p>EXPOSE 80    # exposing http port
+ EXPOSE 443   # exposing https port</p>
+
+<p># CMD [&quot;executable&quot;,&quot;param1&quot;,&quot;param2&quot;] { syntax on command writting }</p>
+
+<p>CMD [&quot;/usr/sbin/apache2ctl&quot;, &quot;-D&quot;, &quot;FOREGROUND&quot;]</p>
+
+<p>RUN apt-get update &amp;&amp; \ apt-get install nodejs &amp;&amp; \ apt-get install npm</p>
+
+<p>ENV MYSQL<em>ROOT</em>PASSWORD=root
+ ENV MYSQL<em>ROOT</em>USER=root</p>
+
+<h3>To Stop a running container</h3>
+
+<ul>
+<li>docker stop <container name></li>
+</ul>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/one/two/2017/04/26/change-of-them.html">
+            Change of theme
+            <small>26 Apr 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/one/two/2017/01/25/configure-dwa131-wireless-n300-nano-usb-adapter-on-raspbian-jessie.html">
+            Configure DWA131 wireless N300
+            <small>25 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/one/two/2017/01/24/my-first-blog.html">
+            My first blog
+            <small>24 Jan 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>

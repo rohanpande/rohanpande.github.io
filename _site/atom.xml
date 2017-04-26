@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Hyde</title>
+ <title>Rohan Pande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-04-26T15:48:53+05:30</updated>
+ <updated>2017-04-26T16:40:38+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Mark Otto</name>
@@ -13,210 +13,390 @@
 
  
  <entry>
-   <title>Introducing Hyde</title>
-   <link href="http://localhost:4000/2013/12/28/introducing-hyde.html"/>
-   <updated>2013-12-28T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2013/12/28/introducing-hyde</id>
-   <content type="html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+   <title>Change of theme</title>
+   <link href="http://localhost:4000/one/two/2017/04/26/change-of-them.html"/>
+   <updated>2017-04-26T10:51:47+05:30</updated>
+   <id>http://localhost:4000/one/two/2017/04/26/change-of-them</id>
+   <content type="html">&lt;hr/&gt;
 
-&lt;h3&gt;Built on Poole&lt;/h3&gt;
-
-&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-&lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-&lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-&lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-&lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Hyde features&lt;/h3&gt;
-
-&lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
-&lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
-
-&lt;h3&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;p&gt;Today I decided to change jekyll theme as I was not satisfied with earlier one. I came across this nice theme which supported all my requirements. so kudos to developer.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Example content</title>
-   <link href="http://localhost:4000/2012/02/07/example-content.html"/>
-   <updated>2012-02-07T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2012/02/07/example-content</id>
-   <content type="html">&lt;div class=&quot;message&quot;&gt;
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-&lt;/div&gt;
+   <title>Learning docker !!!</title>
+   <link href="http://localhost:4000/one/two/2017/02/22/learning-docker.html"/>
+   <updated>2017-02-22T14:12:47+05:30</updated>
+   <id>http://localhost:4000/one/two/2017/02/22/learning-docker</id>
+   <content type="html">&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h2&gt;Inline HTML elements&lt;/h2&gt;
-
-&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;To run docker&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-&lt;li&gt;Citations, like &lt;cite&gt;&amp;mdash; Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;docker run docker/whalesay cowsay boo&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
-
-&lt;h2&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3&gt;Gists via GitHub Pages&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
-
-&lt;p&gt;&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
-
-&lt;h3&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+&lt;h3&gt;To see Docker images on system&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;li&gt;docker images&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+&lt;h3&gt;Writing a Docker File&lt;/h3&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;A Dockerfile is a recipe which describes the files, environment, and commands that make up an image.&lt;/li&gt;
+&lt;li&gt;create a new directory mkdir mydockerbuild&lt;/li&gt;
+&lt;li&gt;cd mydockerbuild
+** Edit a new text file named Dockerfile&lt;/li&gt;
+&lt;li&gt;nano Dockerfile
+** Add a FROM statement by copying the following line into the file&lt;/li&gt;
+&lt;li&gt;FROM docker/whalesay:latest
+-- the FROM keyword tells Docker which image your image is based on.
+** Add a RUN statement which will install the fortunes program into the image&lt;/li&gt;
+&lt;li&gt;RUN apt-get -y update &amp;amp;&amp;amp; apt-get install -y fortunes
+** Add a CMD statement which tells the iamge the final command to run afters its environment is setup this command runs fortune -a and sends its output to the cowsay command.&lt;/li&gt;
+&lt;li&gt;CMD /usr/games/fortune -a | cowsay
+** Check your work. Your file should look just like this
+FROM docker/whalesay:latest
+RUN apt-get -y update &amp;amp;&amp;amp; apt-get install -y fortunes
+CMD /usr/games/fortune -a | cowsay&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+&lt;h3&gt;Build an image from your docker file&lt;/h3&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
-  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+&lt;ul&gt;
+&lt;li&gt;docker build -t docker-whale .&lt;/li&gt;
+&lt;/ul&gt;
 
-  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
-  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+&lt;h3&gt;Run your new docker-whale&lt;/h3&gt;
 
-  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
-  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
-&lt;/dl&gt;
+&lt;ul&gt;
+&lt;li&gt;docker images [ this will provide list of all images at local ]&lt;/li&gt;
+&lt;li&gt;docker run docker-whale&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;h3&gt;Tag and push the image&lt;/h3&gt;
 
-&lt;h3&gt;Images&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;docker images [ this will provide list of all images available ]&lt;/li&gt;
+&lt;li&gt;Find the image ID for the image to be tagged and pushed&lt;/li&gt;
+&lt;li&gt;docker tag image ID justrohu/image-name:version&lt;/li&gt;
+&lt;li&gt;docker images [ run again to ensure image has been tagged ]&lt;/li&gt;
+&lt;li&gt;docker login [to login into docker.hub.com account ]&lt;/li&gt;
+&lt;li&gt;docker push justrohu/image-name&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
+&lt;h3&gt;Remove Docker Image&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot;&gt;
-&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot;&gt;
-&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker image remove [ you can refer to an image by its ID or its name ]&lt;/li&gt;
+&lt;li&gt;docker image remove image ID&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3&gt;Tables&lt;/h3&gt;
+&lt;h3&gt;Pull your new image&lt;/h3&gt;
 
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker images&lt;/li&gt;
+&lt;li&gt;remove duplicate images by docker image remove image ID&lt;/li&gt;
+&lt;li&gt;docker run docker/whalesay&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Upvotes&lt;/th&gt;
-      &lt;th&gt;Downvotes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;9&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h3&gt;To View List of All Containers&lt;/h3&gt;
 
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker ps -a&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;hr&gt;
+&lt;h3&gt;To view list of Latest created containers including non-running containers&lt;/h3&gt;
 
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker ps -l&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To List the networks on docker&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker network ls&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To Launch docker into the network by default it will launch in bridge network unless customized otherwise&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -itd --name=networktest ubuntu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;inspecting the bridge is the easiest way to find containers ip address&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker network inspect bridge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To disconnect the container from a network&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker network disconnect bridge networktest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To create your own bridge network&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker network create -d bridge my-bridge-network&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To add containers to a network&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d --net=my-bridge-network --name db training/postgres&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To inspect bridge&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker inspect --format=&amp;#39;&amp;#39; db&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To add container to network without specifying network&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d --name web training/webapp python app.py&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To get the ip address on which container is deployed&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker inspect --format=&amp;#39;&amp;#39;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To open a shell to running container&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker exec -it db bash&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To attach a container to other network&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker network connect my-bridge-network web&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+
+&lt;h2&gt;Data Volumes&lt;/h2&gt;
+
+&lt;h3&gt;Adding a data volumn&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d -P --name web -v /webapp training/webapp python app.py&lt;/li&gt;
+&lt;li&gt;you can also use the VOLUME instruction in a Dockerfile to add one or more new volumes to any container created from that image.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Location a volumn&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker inspect web [ container name ]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Mount a host directory as a data volume&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d -P --name web -v /src/webapp:/webapp training/webapp python app.py&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Mount a host directory as data volume with read only&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d -P --name web -v /src/webapp:/webapp:ro training/webapp python app.py&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Mount a host file as a data volume¶&lt;/h3&gt;
+
+&lt;p&gt;** The -v flag can also be used to mount a single file - instead of just directories - from the host machine.
+ - docker run --rm -it -v ~/.bash&lt;em&gt;histroy:/root/.bash&lt;/em&gt;histroy ubuntu /bin/bash&lt;/p&gt;
+
+&lt;h3&gt;Creating and mounting a data volume container&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker create -v /dbdata --name dbstore training/postgres /bin/true&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To mount the /dbdata volume in another container by using --volumes-from flag&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d --volumes-from dbstore --name db1 training/postgres&lt;/li&gt;
+&lt;li&gt;docker run -d --volumes-from dbstore --name db2 training/postgres&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To extend chain by mounting the volume that came from the dbstore&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -d --name db3 --volumes-from db1 training/postgres&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Backup, restore or migrate data volumes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run --rm --volumes-from dbstore -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /dbdata&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To remove volumes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run --rm -v /foot -v awesome:/bar busybox top&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To delete containers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker rm -f &lt;container&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Delete all available containers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker rm -f $(docker ps -aq)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;To expose default ports&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -tid -P  --name apache_server nimmis/apache-php5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Specify a different post &lt;host port&gt;:&lt;container port&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -tid -p 80:80 --name apache_server  nimmis/apache-php5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker run -tid -p 80:80 --name=&amp;quot;apache_server&amp;quot; -v /Users/admin/Desktop/www/TEST:/var/www nimmis/apache-php5&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Dockerfile example&lt;/h3&gt;
+
+&lt;p&gt;FROM justrohu/apache-php5
+ MAINTAINER justrohu &lt;a href=&quot;mailto:justrohu@gmail.com&quot;&gt;justrohu@gmail.com&lt;/a&gt;
+ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  [ overridding container httpd.conf with host conf ]&lt;/p&gt;
+
+&lt;p&gt;EXPOSE 80    # exposing http port
+ EXPOSE 443   # exposing https port&lt;/p&gt;
+
+&lt;p&gt;# CMD [&amp;quot;executable&amp;quot;,&amp;quot;param1&amp;quot;,&amp;quot;param2&amp;quot;] { syntax on command writting }&lt;/p&gt;
+
+&lt;p&gt;CMD [&amp;quot;/usr/sbin/apache2ctl&amp;quot;, &amp;quot;-D&amp;quot;, &amp;quot;FOREGROUND&amp;quot;]&lt;/p&gt;
+
+&lt;p&gt;RUN apt-get update &amp;amp;&amp;amp; \ apt-get install nodejs &amp;amp;&amp;amp; \ apt-get install npm&lt;/p&gt;
+
+&lt;p&gt;ENV MYSQL&lt;em&gt;ROOT&lt;/em&gt;PASSWORD=root
+ ENV MYSQL&lt;em&gt;ROOT&lt;/em&gt;USER=root&lt;/p&gt;
+
+&lt;h3&gt;To Stop a running container&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;docker stop &lt;container name&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
  <entry>
-   <title>What's Jekyll?</title>
-   <link href="http://localhost:4000/2012/02/06/whats-jekyll.html"/>
-   <updated>2012-02-06T00:00:00+05:30</updated>
-   <id>http://localhost:4000/2012/02/06/whats-jekyll</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
+   <title>Configure DWA131 wireless N300</title>
+   <link href="http://localhost:4000/one/two/2017/01/25/configure-dwa131-wireless-n300-nano-usb-adapter-on-raspbian-jessie.html"/>
+   <updated>2017-01-25T10:51:47+05:30</updated>
+   <id>http://localhost:4000/one/two/2017/01/25/configure-dwa131-wireless-n300-nano-usb-adapter-on-raspbian-jessie</id>
+   <content type="html">&lt;hr/&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Today I have to shift network connection of my raspberry pi 2 from wired to wifi. I did foresee this and did purchased a wifi dongle “DWA131 Wireless N300 Nano USB Adapter” from a technological fair at my home town. When I connected this dongle to my raspberry pi. It was disappointing to see that this dongle is not supported out of the box for raspbian jessie. so I tried it with “Kodi” which to my surprise supported this dongle out of the box.&lt;/p&gt;
 
-&lt;p&gt;It&amp;#39;s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
+&lt;p&gt;So during this weekend I decided I should fix this issue. I googled for solutions and found &amp;amp; tried many but none of them worked for me. then I looked up in detail and found out that most of the solutions were for DWA131 Wireless N150 Nano USB Adapter.&lt;/p&gt;
 
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So this is what I did to fix my issue.&lt;/p&gt;
+
+&lt;p&gt;First I got the kernal and build number of “Raspbian Jessie” by doing&lt;/p&gt;
+
+&lt;p&gt;uname -a&lt;/p&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;p&gt;Linux rohan-pi 4.1.13-v7 + #826 SMP PREEMPT Fri Nov 13 20:19:03 GMT 2015 armv7l GNU/Linux&lt;/p&gt;
+
+&lt;p&gt;Kernal : 4.1.13-v7&lt;/p&gt;
+
+&lt;p&gt;Build : 826&lt;/p&gt;
+
+&lt;p&gt;Getting the right driver for dongle&lt;/p&gt;
+
+&lt;p&gt;wget https://dl.dropboxusercontent.com/u/80256631/8192eu -[ kernel ]-[ build ].tar.gz
+so my wget would look like this&lt;/p&gt;
+
+&lt;p&gt;wget https://dl.dropboxusercontent.com/u/80256631/8192eu-4.1.13-v7-826.tar.gz&lt;/p&gt;
+
+&lt;p&gt;extracting downloaded driver&lt;/p&gt;
+
+&lt;p&gt;tar xzf 8192eu-4.1.13-v7-826.tar.gz
+The last step is to run install.sh from the extracted folder.&lt;/p&gt;
+
+&lt;p&gt;please setup your wifi network configuration &amp;amp; remove the wired connection and reboot the system.&lt;/p&gt;
+
+&lt;p&gt;this is my wifi config setup&lt;/p&gt;
+
+&lt;p&gt;interface setting&lt;/p&gt;
+
+&lt;p&gt;path: /etc/network/interfaces&lt;/p&gt;
+
+&lt;h5&gt;interfaces(5) file used by ifup(8) and ifdown(8)&lt;/h5&gt;
+
+&lt;h5&gt;Please note that this file is written to be used with dhcpcd&lt;/h5&gt;
+
+&lt;h5&gt;For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’&lt;/h5&gt;
+
+&lt;h5&gt;Include files from /etc/network/interfaces.d:&lt;/h5&gt;
+
+&lt;p&gt;source-directory /etc/network/interfaces.d&lt;/p&gt;
+
+&lt;p&gt;auto lo
+iface lo inet loopback
+iface eth0 inet manual
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-conf /etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;supplicant.conf
+allow-hotplug wlan1
+iface wlan1 inet manual
+wpa-conf /etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;supplicant.conf
+wpa_supplicant.conf file contents :&lt;/p&gt;
+
+&lt;p&gt;/etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;suppplicant.conf
+ctrl&lt;em&gt;interface=DIR=/var/run/wpa&lt;/em&gt;supplicant GROUP=netdev
+update_config=1&lt;/p&gt;
+
+&lt;p&gt;network={
+ssid=”YOUR-NETWORK-SSID”
+key_mgmt=WPA-PSK
+psk=”YOUR-NETWORK-PASSWORD”
+}&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>My first blog</title>
+   <link href="http://localhost:4000/one/two/2017/01/24/my-first-blog.html"/>
+   <updated>2017-01-24T10:51:47+05:30</updated>
+   <id>http://localhost:4000/one/two/2017/01/24/my-first-blog</id>
+   <content type="html">&lt;hr/&gt;
+
+&lt;p&gt;Welcome to my first blog, Thank you for taking time to read this.
+At first, I was reluctant to do blogging then I thought writting makes me feel relaxed so here it is.&lt;/p&gt;
+
+&lt;p&gt;I started to write this blog but kept starting at my screen for 30 mins and over. with all the thoughts which are rushing in my brain I am trying to give a go to what comes to my mind and started to type this.&lt;/p&gt;
+
+&lt;p&gt;I am software developer by profession, It&amp;#39;s been 4 or more years in this industry but I am rocking it, I work for Sanisoft Technologies. I love my job.&lt;/p&gt;
+
+&lt;p&gt;So guys this is my first post. more and more to come.&lt;/p&gt;
+
+&lt;p&gt;Thank you&lt;/p&gt;
 </content>
  </entry>
  

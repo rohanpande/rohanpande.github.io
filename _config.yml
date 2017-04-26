@@ -7,9 +7,9 @@ highlighter:      pygments
 
 
 # Setup
-title:            Hyde
+title:            Rohan Pande
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Programming enthusiast, Nature lover, Open source contributor'
 url:              http://hyde.getpoole.com
 baseurl:          /
 gems: [jekyll-paginate, jekyll-gist, rb-pygments]
@@ -19,9 +19,3 @@ author:
   url:            https://twitter.com/mdo
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
