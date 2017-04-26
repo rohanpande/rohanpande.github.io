@@ -6,7 +6,7 @@ rvm:
 before_install:
   - gem update bundler
 
-install: gem install jekyll rdiscount pygments.rb jekyll-paginate jekyll-seo-tag jekyll-gist
+install: gem install jekyll rdiscount pygments.rb jekyll-paginate jekyll-seo-tag jekyll-gist redcarpet
 
 script: jekyll build
 
