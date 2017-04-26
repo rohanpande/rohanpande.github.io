@@ -124,37 +124,37 @@ The last step is to run install.sh from the extracted folder.</p>
 
 <p>path: /etc/network/interfaces</p>
 
-<h5>interfaces(5) file used by ifup(8) and ifdown(8)</h5>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span></span><span class="c1">##### interfaces(5) file used by ifup(8) and ifdown(8)</span>
 
-<h5>Please note that this file is written to be used with dhcpcd</h5>
+<span class="c1">##### Please note that this file is written to be used with dhcpcd</span>
 
-<h5>For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’</h5>
+<span class="c1">##### For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’</span>
 
-<h5>Include files from /etc/network/interfaces.d:</h5>
+<span class="c1">##### Include files from /etc/network/interfaces.d:</span>
 
-<p>source-directory /etc/network/interfaces.d</p>
+source-directory /etc/network/interfaces.d
 
-<p>auto lo
+auto lo
 iface lo inet loopback
 iface eth0 inet manual
 auto wlan0
 allow-hotplug wlan0
 iface wlan0 inet manual
-wpa-conf /etc/wpa<em>supplicant/wpa</em>supplicant.conf
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 allow-hotplug wlan1
 iface wlan1 inet manual
-wpa-conf /etc/wpa<em>supplicant/wpa</em>supplicant.conf
-wpa_supplicant.conf file contents :</p>
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+wpa_supplicant.conf file contents :
 
-<p>/etc/wpa<em>supplicant/wpa</em>suppplicant.conf
-ctrl<em>interface=DIR=/var/run/wpa</em>supplicant GROUP=netdev
-update_config=1</p>
+/etc/wpa_supplicant/wpa_suppplicant.conf
+<span class="nv">ctrl_interface</span><span class="o">=</span><span class="nv">DIR</span><span class="o">=</span>/var/run/wpa_supplicant <span class="nv">GROUP</span><span class="o">=</span>netdev
+<span class="nv">update_config</span><span class="o">=</span><span class="m">1</span>
 
-<p>network={
-ssid=”YOUR-NETWORK-SSID”
-key_mgmt=WPA-PSK
-psk=”YOUR-NETWORK-PASSWORD”
-}</p>
+<span class="nv">network</span><span class="o">={</span>
+<span class="nv">ssid</span><span class="o">=</span>”YOUR-NETWORK-SSID”
+<span class="nv">key_mgmt</span><span class="o">=</span>WPA-PSK
+<span class="nv">psk</span><span class="o">=</span>”YOUR-NETWORK-PASSWORD”
+<span class="o">}</span></code></pre></figure>
 
 </div>
 

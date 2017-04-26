@@ -150,10 +150,12 @@ CMD /usr/games/fortune -a | cowsay
   - docker run -tid -p 80:80 --name="apache_server" -v /Users/admin/Desktop/www/TEST:/var/www nimmis/apache-php5
 
 ### Dockerfile example
+{% highlight shell %}
 
  FROM justrohu/apache-php5
  MAINTAINER justrohu <justrohu@gmail.com>
- COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  [ overridding container httpd.conf with host conf ]
+ COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  
+ [ overridding container httpd.conf with host conf ]
 
  EXPOSE 80    # exposing http port
  EXPOSE 443   # exposing https port
@@ -166,6 +168,8 @@ CMD /usr/games/fortune -a | cowsay
 
  ENV MYSQL_ROOT_PASSWORD=root
  ENV MYSQL_ROOT_USER=root
+
+{% endhighlight %}
 
 ### To Stop a running container
  - docker stop <container name>

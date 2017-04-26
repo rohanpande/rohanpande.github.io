@@ -333,21 +333,22 @@ CMD /usr/games/fortune -a | cowsay</li>
 
 <h3>Dockerfile example</h3>
 
-<p>FROM justrohu/apache-php5
- MAINTAINER justrohu <a href="mailto:justrohu@gmail.com">justrohu@gmail.com</a>
- COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  [ overridding container httpd.conf with host conf ]</p>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span></span> FROM justrohu/apache-php5
+ MAINTAINER justrohu &lt;justrohu@gmail.com&gt;
+ COPY <span class="m">000</span>-default.conf /etc/apache2/sites-available/000-default.conf  
+ <span class="o">[</span> overridding container httpd.conf with host conf <span class="o">]</span>
 
-<p>EXPOSE 80    # exposing http port
- EXPOSE 443   # exposing https port</p>
+ EXPOSE <span class="m">80</span>    <span class="c1"># exposing http port</span>
+ EXPOSE <span class="m">443</span>   <span class="c1"># exposing https port</span>
 
-<p># CMD [&quot;executable&quot;,&quot;param1&quot;,&quot;param2&quot;] { syntax on command writting }</p>
+  <span class="c1"># CMD [&quot;executable&quot;,&quot;param1&quot;,&quot;param2&quot;] { syntax on command writting }</span>
 
-<p>CMD [&quot;/usr/sbin/apache2ctl&quot;, &quot;-D&quot;, &quot;FOREGROUND&quot;]</p>
+ CMD <span class="o">[</span><span class="s2">&quot;/usr/sbin/apache2ctl&quot;</span>, <span class="s2">&quot;-D&quot;</span>, <span class="s2">&quot;FOREGROUND&quot;</span><span class="o">]</span>
 
-<p>RUN apt-get update &amp;&amp; \ apt-get install nodejs &amp;&amp; \ apt-get install npm</p>
+ RUN apt-get update <span class="o">&amp;&amp;</span> <span class="se">\ </span>apt-get install nodejs <span class="o">&amp;&amp;</span> <span class="se">\ </span>apt-get install npm
 
-<p>ENV MYSQL<em>ROOT</em>PASSWORD=root
- ENV MYSQL<em>ROOT</em>USER=root</p>
+ ENV <span class="nv">MYSQL_ROOT_PASSWORD</span><span class="o">=</span>root
+ ENV <span class="nv">MYSQL_ROOT_USER</span><span class="o">=</span>root</code></pre></figure>
 
 <h3>To Stop a running container</h3>
 

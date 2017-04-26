@@ -4,7 +4,7 @@
  <title>Rohan Pande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-04-26T17:29:00+05:30</updated>
+ <updated>2017-04-26T17:36:27+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Rohan Pande</name>
@@ -277,21 +277,22 @@ CMD /usr/games/fortune -a | cowsay&lt;/li&gt;
 
 &lt;h3&gt;Dockerfile example&lt;/h3&gt;
 
-&lt;p&gt;FROM justrohu/apache-php5
- MAINTAINER justrohu &lt;a href=&quot;mailto:justrohu@gmail.com&quot;&gt;justrohu@gmail.com&lt;/a&gt;
- COPY 000-default.conf /etc/apache2/sites-available/000-default.conf  [ overridding container httpd.conf with host conf ]&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;&lt;/span&gt; FROM justrohu/apache-php5
+ MAINTAINER justrohu &amp;lt;justrohu@gmail.com&amp;gt;
+ COPY &lt;span class=&quot;m&quot;&gt;000&lt;/span&gt;-default.conf /etc/apache2/sites-available/000-default.conf  
+ &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; overridding container httpd.conf with host conf &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 
-&lt;p&gt;EXPOSE 80    # exposing http port
- EXPOSE 443   # exposing https port&lt;/p&gt;
+ EXPOSE &lt;span class=&quot;m&quot;&gt;80&lt;/span&gt;    &lt;span class=&quot;c1&quot;&gt;# exposing http port&lt;/span&gt;
+ EXPOSE &lt;span class=&quot;m&quot;&gt;443&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;# exposing https port&lt;/span&gt;
 
-&lt;p&gt;# CMD [&amp;quot;executable&amp;quot;,&amp;quot;param1&amp;quot;,&amp;quot;param2&amp;quot;] { syntax on command writting }&lt;/p&gt;
+  &lt;span class=&quot;c1&quot;&gt;# CMD [&amp;quot;executable&amp;quot;,&amp;quot;param1&amp;quot;,&amp;quot;param2&amp;quot;] { syntax on command writting }&lt;/span&gt;
 
-&lt;p&gt;CMD [&amp;quot;/usr/sbin/apache2ctl&amp;quot;, &amp;quot;-D&amp;quot;, &amp;quot;FOREGROUND&amp;quot;]&lt;/p&gt;
+ CMD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/usr/sbin/apache2ctl&amp;quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&amp;quot;-D&amp;quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&amp;quot;FOREGROUND&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
 
-&lt;p&gt;RUN apt-get update &amp;amp;&amp;amp; \ apt-get install nodejs &amp;amp;&amp;amp; \ apt-get install npm&lt;/p&gt;
+ RUN apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;apt-get install nodejs &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;apt-get install npm
 
-&lt;p&gt;ENV MYSQL&lt;em&gt;ROOT&lt;/em&gt;PASSWORD=root
- ENV MYSQL&lt;em&gt;ROOT&lt;/em&gt;USER=root&lt;/p&gt;
+ ENV &lt;span class=&quot;nv&quot;&gt;MYSQL_ROOT_PASSWORD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;root
+ ENV &lt;span class=&quot;nv&quot;&gt;MYSQL_ROOT_USER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;root&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3&gt;To Stop a running container&lt;/h3&gt;
 
@@ -346,37 +347,37 @@ The last step is to run install.sh from the extracted folder.&lt;/p&gt;
 
 &lt;p&gt;path: /etc/network/interfaces&lt;/p&gt;
 
-&lt;h5&gt;interfaces(5) file used by ifup(8) and ifdown(8)&lt;/h5&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;##### interfaces(5) file used by ifup(8) and ifdown(8)&lt;/span&gt;
 
-&lt;h5&gt;Please note that this file is written to be used with dhcpcd&lt;/h5&gt;
+&lt;span class=&quot;c1&quot;&gt;##### Please note that this file is written to be used with dhcpcd&lt;/span&gt;
 
-&lt;h5&gt;For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’&lt;/h5&gt;
+&lt;span class=&quot;c1&quot;&gt;##### For static IP, consult /etc/dhcpcd.conf and ‘man dhcpcd.conf’&lt;/span&gt;
 
-&lt;h5&gt;Include files from /etc/network/interfaces.d:&lt;/h5&gt;
+&lt;span class=&quot;c1&quot;&gt;##### Include files from /etc/network/interfaces.d:&lt;/span&gt;
 
-&lt;p&gt;source-directory /etc/network/interfaces.d&lt;/p&gt;
+source-directory /etc/network/interfaces.d
 
-&lt;p&gt;auto lo
+auto lo
 iface lo inet loopback
 iface eth0 inet manual
 auto wlan0
 allow-hotplug wlan0
 iface wlan0 inet manual
-wpa-conf /etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;supplicant.conf
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 allow-hotplug wlan1
 iface wlan1 inet manual
-wpa-conf /etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;supplicant.conf
-wpa_supplicant.conf file contents :&lt;/p&gt;
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+wpa_supplicant.conf file contents :
 
-&lt;p&gt;/etc/wpa&lt;em&gt;supplicant/wpa&lt;/em&gt;suppplicant.conf
-ctrl&lt;em&gt;interface=DIR=/var/run/wpa&lt;/em&gt;supplicant GROUP=netdev
-update_config=1&lt;/p&gt;
+/etc/wpa_supplicant/wpa_suppplicant.conf
+&lt;span class=&quot;nv&quot;&gt;ctrl_interface&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/var/run/wpa_supplicant &lt;span class=&quot;nv&quot;&gt;GROUP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;netdev
+&lt;span class=&quot;nv&quot;&gt;update_config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
 
-&lt;p&gt;network={
-ssid=”YOUR-NETWORK-SSID”
-key_mgmt=WPA-PSK
-psk=”YOUR-NETWORK-PASSWORD”
-}&lt;/p&gt;
+&lt;span class=&quot;nv&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;={&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;ssid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;”YOUR-NETWORK-SSID”
+&lt;span class=&quot;nv&quot;&gt;key_mgmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;WPA-PSK
+&lt;span class=&quot;nv&quot;&gt;psk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;”YOUR-NETWORK-PASSWORD”
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </content>
  </entry>
  
