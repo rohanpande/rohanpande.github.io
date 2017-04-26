@@ -8,14 +8,14 @@ highlighter:      pygments
 
 # Setup
 title:            Rohan Pande
-tagline:          'A Jekyll theme'
+tagline:          'A programmers blog, thought sharing space'
 description:      'Programming enthusiast, Nature lover, Open source contributor'
-url:              http://hyde.getpoole.com
+url:              http://www.rohanpande.in
 baseurl:          /
 gems: [jekyll-paginate, jekyll-gist]
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Rohan Pande'
+  url:            http://www.rohanpande.in
 
 paginate:         5
