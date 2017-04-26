@@ -12,7 +12,7 @@ tagline:          'A programmers blog, thought sharing space'
 description:      'Programming enthusiast, Nature lover, Open source contributor'
 url:              http://www.rohanpande.in
 baseurl:          /
-gems: [jekyll-paginate, jekyll-gist]
+gems:             [jekyll-paginate, jekyll-gist]
 
 author:
   name:           'Rohan Pande'
