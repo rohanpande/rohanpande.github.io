@@ -4,13 +4,24 @@
  <title>Rohan Pande</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-04-28T16:33:19+05:30</updated>
+ <updated>2017-05-03T15:35:48+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Rohan Pande</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Custom built PHP shopping cart</title>
+   <link href="http://localhost:4000/one/two/2017/05/03/shopping-cart.html"/>
+   <updated>2017-05-03T10:51:47+05:30</updated>
+   <id>http://localhost:4000/one/two/2017/05/03/shopping-cart</id>
+   <content type="html">&lt;hr/&gt;
+
+&lt;p&gt;Work in progress.. &lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Change of theme</title>
